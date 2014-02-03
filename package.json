@@ -1,0 +1,31 @@
+{
+  "name": "distimo",
+  "version": "0.0.0",
+  "description": "Distimo API implementation for Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec"
+  },
+  "keywords": [
+    "distimo",
+    "api"
+  ],
+  "author": {
+    "name": "Konstantin Tsabolov",
+    "email": "ktsabolov@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "pkginfo": "~0.3.0",
+    "request": "~2.33.0",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}
